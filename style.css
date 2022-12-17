@@ -1,0 +1,34 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #D5E1EF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qr-container{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+figure{
+    height: 326px;
+    margin: 10px auto;
+}
+.qr-image{
+    height: inherit;
+    border-radius: 15px;
+}
+.qr-title, .qr-description{
+    font-family: 'Outfit';
+}
+.qr-title{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+.qr-description{
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
